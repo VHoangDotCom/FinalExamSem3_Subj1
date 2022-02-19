@@ -16,22 +16,25 @@
                 <StackPanel Margin="250 50 0 0" Orientation="Horizontal">
                    
                     <TextBlock Text="Name"  FontSize="50" ></TextBlock>
-                    <TextBlock x:ConnectionId='6'  Foreground="Red" Margin="30 0 0 0" FontSize="50" x:Name="nameErr" ></TextBlock>
+                    <TextBlock x:ConnectionId='7'  Foreground="Red" Margin="30 0 0 0" FontSize="50" x:Name="nameErr" ></TextBlock>
                 </StackPanel>
                              
-                <TextBox x:ConnectionId='5' x:Name="txtName" Width="1000" FontSize="50" Margin="20"></TextBox>
+                <TextBox x:ConnectionId='6' x:Name="txtName" Width="1000" FontSize="50" Margin="20"></TextBox>
             </StackPanel>
             <StackPanel Orientation="Vertical">
                 <StackPanel Margin="250 50 0 0" Orientation="Horizontal">
 
                     <TextBlock Text="PhoneNumber"  FontSize="50" ></TextBlock>
-                    <TextBlock x:ConnectionId='4'  Foreground="Red" Margin="30 0 0 0" FontSize="50" x:Name="phoneErr" ></TextBlock>
+                    <TextBlock x:ConnectionId='5'  Foreground="Red" Margin="30 0 0 0" FontSize="50" x:Name="phoneErr" ></TextBlock>
                 </StackPanel>
-                <TextBox x:ConnectionId='3' x:Name="txtPhone" Width="1000" FontSize="50" Margin="20"></TextBox>
+                <TextBox x:ConnectionId='4' x:Name="txtPhone" Width="1000" FontSize="50" Margin="20"></TextBox>
             </StackPanel>
         </StackPanel>
 
-        <Button x:ConnectionId='2' x:Name="Create"                      HorizontalAlignment="Center" Margin="0 500 0 0" FontSize="50" Content="Add Contact" Width="600" Height="100"></Button>
+        <StackPanel Orientation="Horizontal">
+            <Button x:ConnectionId='2' x:Name="Create"                      HorizontalAlignment="Center" Margin="50 500 0 0" FontSize="50" Content="Add Contact" Width="600" Height="100"></Button>
+            <Button x:ConnectionId='3' x:Name="List"                    HorizontalAlignment="Center" Margin="50 500 0 0" FontSize="50" Content="List" Width="600" Height="100"></Button>
+        </StackPanel>
        
     </Grid>
 </Page>

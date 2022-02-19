@@ -4,11 +4,72 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:FinalExamProject_Sem3"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+     xmlns:controls="using:Microsoft.Toolkit.Uwp.UI.Controls"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
+     Loaded="Page_Loaded"
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-    <Grid>
+    <ScrollViewer  VerticalScrollBarVisibility="Visible" HorizontalScrollBarVisibility="Auto" >
+        <Grid Background="AliceBlue">
+            <StackPanel  Orientation="Horizontal"  HorizontalAlignment="Center">
+                <TextBlock x:Name="title" Foreground="DarkBlue"   FontSize="30" Text="EXPENDITURE MANAGEMENT" Margin="0 20 0 10" />
+            </StackPanel>
+            <StackPanel HorizontalAlignment="Center" Orientation="Horizontal">
+                <StackPanel Margin="0,120,0,0">
+                    <Border Background="GhostWhite" Width="750" Height="500" Margin="-30 50 0 0" BorderBrush="CadetBlue" BorderThickness="2" CornerRadius="40">
+                        <controls:DataGrid  
+                x:Name="ListData" 
+                SelectionChanged="ListData_SelectionChanged"
+                ItemsSource="{Binding Orders}"
+                HorizontalAlignment="Left" 
+                AutoGenerateColumns="True"
+                VerticalAlignment="Top" 
+                Margin="35 10 0 10"
+                Width="650"
+                AlternatingRowBackground="LightBlue"
+                AreRowDetailsFrozen="True"
+                Background="GhostWhite"
+                CanUserReorderColumns="True"
+                CanUserResizeColumns="True"
+                CanUserSortColumns="True"
+                GridLinesVisibility="All"
+                HeadersVisibility="Column"
+                SelectionMode="Single"
+                />
+                    </Border>
 
-    </Grid>
+                </StackPanel>
+                <StackPanel  HorizontalAlignment="Right" Orientation="Vertical">
+                    <StackPanel>
+                       
+                        <Border Background="FloralWhite" Width="650" Height="100" Margin="30 150 0 0" BorderBrush="CadetBlue" BorderThickness="2" CornerRadius="40">
+                            <StackPanel Orientation="Vertical">
+                                <TextBlock Foreground="CadetBlue" FontSize="15" HorizontalAlignment="Center" Text="Enter name contact"></TextBlock>
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBox x:Name="txtFindName" SelectionChanged="txtFindName_SelectionChanged" Background="White" Foreground="CadetBlue" Margin="40 10 0 0" Width="400" FontSize="20" PlaceholderText="Enter Name "></TextBox>
+                                    <Button Click="Button_Click"  Foreground="CadetBlue" Height="40" Width="100" Content="Search" Margin="0 10 0 0" FontSize="20" ></Button>
+                                </StackPanel>
+                                <TextBlock x:Name="nameErr" FontSize="20" Foreground="Red" HorizontalAlignment="Center" FontWeight="Bold" ></TextBlock>
+                            </StackPanel>
+                        </Border>
+                        <Border Background="FloralWhite" Width="550" Height="350" Margin="30 40 0 0" BorderBrush="CadetBlue" BorderThickness="2" CornerRadius="40">
+                            <StackPanel Margin="20" Orientation="Vertical">
+                                <TextBlock Margin="0 10 0 0"  FontSize="30" x:Name="txtID" ></TextBlock>
+                                <TextBlock Margin="0 10 0 0" FontSize="30" x:Name="txtName" ></TextBlock>
+                                <TextBlock Margin="0 10 0 0" FontSize="30" x:Name="txtPhone" ></TextBlock>
+                                
+                            </StackPanel>
+
+                        </Border>
+                    </StackPanel>
+                    <StackPanel  Margin="-1400 50 0 0" HorizontalAlignment="Center" Orientation="Horizontal">
+                        <Button Margin="35"  Click="Create_Click" Content="Create" x:Name="Create" ></Button>
+                        <Button Margin="35"  Click="Reset_Click"  Content="Reset"  x:Name="Reset" ></Button>
+                    
+                    </StackPanel>
+                </StackPanel>
+            </StackPanel>
+        </Grid>
+    </ScrollViewer>
 </Page>

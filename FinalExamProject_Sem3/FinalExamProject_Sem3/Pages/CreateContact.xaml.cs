@@ -31,7 +31,12 @@ namespace FinalExamProject_Sem3.Pages
 
         private void Create_Click(object sender, RoutedEventArgs e)
         {
+            crud.CreateRecord(txtName.Text, txtPhone.Text,nameErr.Text, phoneErr.Text);
+        }
 
+        private void List_Click(object sender, RoutedEventArgs e)
+        {
+            Frame.Navigate(typeof(MainPage));
         }
     }
 }

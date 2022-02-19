@@ -30,13 +30,13 @@
     <AppXManifest Include="D:\epc\Ap-Sem3\Windows Forms Programming\FinalExamSubj1_Sem3\FinalExamProject_Sem3\FinalExamProject_Sem3\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-02-19T12:48:36.269</Modified>
+      <Modified>2022-02-19T13:55:21.592</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\epc\Ap-Sem3\Windows Forms Programming\FinalExamSubj1_Sem3\FinalExamProject_Sem3\FinalExamProject_Sem3\bin\x86\Debug\FinalExamProject_Sem3.exe">
       <PackagePath>entrypoint\FinalExamProject_Sem3.exe</PackagePath>
-      <Modified>2022-02-19T12:48:35.299</Modified>
+      <Modified>2022-02-19T13:55:20.694</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\colorcode.core\2.0.6\lib\netstandard1.4\ColorCode.Core.dll">
       <PackagePath>ColorCode.Core.dll</PackagePath>
@@ -214,19 +214,19 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\epc\Ap-Sem3\Windows Forms Programming\FinalExamSubj1_Sem3\FinalExamProject_Sem3\FinalExamProject_Sem3\bin\x86\Debug\FinalExamProject_Sem3.xr.xml">
       <PackagePath>FinalExamProject_Sem3.xr.xml</PackagePath>
-      <Modified>2022-02-19T12:46:22.889</Modified>
+      <Modified>2022-02-19T13:35:55.752</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\epc\Ap-Sem3\Windows Forms Programming\FinalExamSubj1_Sem3\FinalExamProject_Sem3\FinalExamProject_Sem3\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2022-02-19T12:47:08.643</Modified>
+      <Modified>2022-02-19T13:55:20.625</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\epc\Ap-Sem3\Windows Forms Programming\FinalExamSubj1_Sem3\FinalExamProject_Sem3\FinalExamProject_Sem3\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2022-02-19T12:47:08.644</Modified>
+      <Modified>2022-02-19T13:55:20.625</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\epc\Ap-Sem3\Windows Forms Programming\FinalExamSubj1_Sem3\FinalExamProject_Sem3\FinalExamProject_Sem3\bin\x86\Debug\Pages\CreateContact.xbf">
       <PackagePath>Pages\CreateContact.xbf</PackagePath>
-      <Modified>2022-02-19T12:47:08.644</Modified>
+      <Modified>2022-02-19T13:55:20.625</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.UniversalCRT.Debug\10.0.19041.0\\redist\Debug\x86\ucrtbased.dll">
       <PackagePath>ucrtbased.dll</PackagePath>
@@ -238,11 +238,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\epc\Ap-Sem3\Windows Forms Programming\FinalExamSubj1_Sem3\FinalExamProject_Sem3\FinalExamProject_Sem3\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2022-02-19T12:48:35.447</Modified>
+      <Modified>2022-02-19T13:37:38.716</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\epc\Ap-Sem3\Windows Forms Programming\FinalExamSubj1_Sem3\FinalExamProject_Sem3\FinalExamProject_Sem3\bin\x86\Debug\Core\FinalExamProject_Sem3.exe">
       <PackagePath>FinalExamProject_Sem3.exe</PackagePath>
-      <Modified>2022-02-19T12:48:36.266</Modified>
+      <Modified>2022-02-19T13:55:21.587</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Admin\.nuget\packages\microsoft.ui.xaml\2.7.0\buildTransitive\..\lib\uap10.0\Microsoft.UI.Xaml.winmd">
       <PackagePath>Microsoft.UI.Xaml.winmd</PackagePath>

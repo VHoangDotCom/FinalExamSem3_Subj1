@@ -67,7 +67,7 @@ namespace FinalExamProject_Sem3
                     // configuring the new page by passing required information as a navigation
                     // parameter
                     Config.CRUD_Command.CreateTables();
-                    rootFrame.Navigate(typeof(MainPage), e.Arguments);
+                    rootFrame.Navigate(typeof(Pages.CreateContact), e.Arguments);
                 }
                 // Ensure the current window is active
                 Window.Current.Activate();

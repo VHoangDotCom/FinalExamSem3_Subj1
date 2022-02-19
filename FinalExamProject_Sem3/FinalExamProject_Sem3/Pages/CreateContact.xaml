@@ -31,7 +31,10 @@
             </StackPanel>
         </StackPanel>
 
-        <Button x:Name="Create" Click="Create_Click" HorizontalAlignment="Center" Margin="0 500 0 0" FontSize="50" Content="Add Contact" Width="600" Height="100"></Button>
+        <StackPanel Orientation="Horizontal">
+            <Button x:Name="Create" Click="Create_Click" HorizontalAlignment="Center" Margin="50 500 0 0" FontSize="50" Content="Add Contact" Width="600" Height="100"></Button>
+            <Button x:Name="List" Click="List_Click" HorizontalAlignment="Center" Margin="50 500 0 0" FontSize="50" Content="List" Width="600" Height="100"></Button>
+        </StackPanel>
        
     </Grid>
 </Page>
