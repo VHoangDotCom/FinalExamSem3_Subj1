@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "glPmX/GPQl624raBDleH78rbDLKBXd++O6EVEEDlwOhbTvyv8EpqZkhbOYAz4stLMoFn800DPr/yIrmHU5SMUw==",
+  "dgSpecHash": "oJW8+JBwzxN0+bS0oWjcpMfG6HW7EHlmSsZHW9mU/CoB2hueKMp/x/XmZgN8Q05t2jxpH6F7nKwVXcvwUpQI/w==",
   "success": true,
-  "projectFilePath": "D:\\epc\\Ap-Sem3\\Windows Forms Programming\\FinalExamProject_Sem3\\FinalExamProject_Sem3\\FinalExamProject_Sem3.csproj",
+  "projectFilePath": "D:\\epc\\Ap-Sem3\\Windows Forms Programming\\FinalExamSubj1_Sem3\\FinalExamProject_Sem3\\FinalExamProject_Sem3\\FinalExamProject_Sem3.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\colorcode.core\\2.0.6\\colorcode.core.2.0.6.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\colorcode.uwp\\2.0.6\\colorcode.uwp.2.0.6.nupkg.sha512",

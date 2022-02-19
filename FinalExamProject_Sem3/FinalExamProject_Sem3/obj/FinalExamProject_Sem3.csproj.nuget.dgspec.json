@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\epc\\Ap-Sem3\\Windows Forms Programming\\FinalExamProject_Sem3\\FinalExamProject_Sem3\\FinalExamProject_Sem3.csproj": {}
+    "D:\\epc\\Ap-Sem3\\Windows Forms Programming\\FinalExamSubj1_Sem3\\FinalExamProject_Sem3\\FinalExamProject_Sem3\\FinalExamProject_Sem3.csproj": {}
   },
   "projects": {
-    "D:\\epc\\Ap-Sem3\\Windows Forms Programming\\FinalExamProject_Sem3\\FinalExamProject_Sem3\\FinalExamProject_Sem3.csproj": {
+    "D:\\epc\\Ap-Sem3\\Windows Forms Programming\\FinalExamSubj1_Sem3\\FinalExamProject_Sem3\\FinalExamProject_Sem3\\FinalExamProject_Sem3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\epc\\Ap-Sem3\\Windows Forms Programming\\FinalExamProject_Sem3\\FinalExamProject_Sem3\\FinalExamProject_Sem3.csproj",
+        "projectUniqueName": "D:\\epc\\Ap-Sem3\\Windows Forms Programming\\FinalExamSubj1_Sem3\\FinalExamProject_Sem3\\FinalExamProject_Sem3\\FinalExamProject_Sem3.csproj",
         "projectName": "FinalExamProject_Sem3",
-        "projectPath": "D:\\epc\\Ap-Sem3\\Windows Forms Programming\\FinalExamProject_Sem3\\FinalExamProject_Sem3\\FinalExamProject_Sem3.csproj",
+        "projectPath": "D:\\epc\\Ap-Sem3\\Windows Forms Programming\\FinalExamSubj1_Sem3\\FinalExamProject_Sem3\\FinalExamProject_Sem3\\FinalExamProject_Sem3.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\epc\\Ap-Sem3\\Windows Forms Programming\\FinalExamProject_Sem3\\FinalExamProject_Sem3\\obj\\",
+        "outputPath": "D:\\epc\\Ap-Sem3\\Windows Forms Programming\\FinalExamSubj1_Sem3\\FinalExamProject_Sem3\\FinalExamProject_Sem3\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
